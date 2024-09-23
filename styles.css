@@ -59,7 +59,7 @@ nav ul li a:hover {
     z-index: -1;
     object-fit: cover;
    /* filter: blur(1px); /* Adds the blur effect to the video */
-    opacity: 0.5; /* Makes the video more subtle */
+    opacity: 0.8; /* Makes the video more subtle */
 }
 
 .hero .content {
