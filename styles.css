@@ -34,18 +34,30 @@ nav ul li a {
 }
 
 .hero {
-    background-image: url('https://www.cgtechnologies.com/wp-content/uploads/2023/01/what-is-cyber-security-1024x683.jpg');
-    background-size: cover;
-    background-position: center;
+    position: relative;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
+    text-align: center;
+}
+
+/* Video Background */
+#background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    opacity: 0.8; /* Adjust the opacity for transparency */
 }
 
 .hero .content {
-    text-align: center;
-    color: white;
+    position: relative;
+    z-index: 1;
 }
 
 .hero h1 {
@@ -121,3 +133,4 @@ footer {
 footer p {
     margin: 0;
 }
+
