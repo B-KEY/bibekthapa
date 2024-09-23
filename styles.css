@@ -58,7 +58,7 @@ nav ul li a:hover {
     min-height: 100%;
     z-index: -1;
     object-fit: cover;
-    filter: blur(5px); /* Adds the blur effect to the video */
+    filter: blur(1px); /* Adds the blur effect to the video */
     opacity: 0.5; /* Makes the video more subtle */
 }
 
